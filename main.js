@@ -11,7 +11,7 @@ function setup(){
     poseNet.on('pose',getPoses);
 }
 function draw(){
-Image(video,0,0,300,300);
+image(video,0,0,300,300);
 }
 function take_snapshot(){
     save('myfilter.png');
